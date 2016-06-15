@@ -6,6 +6,9 @@ html,body{
 input{
 	border:none;
 }
+img{
+	border:none;
+}
 .bgimg{
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -67,6 +70,9 @@ input{
 }
 /* TouchSlide轮播图的样式-结束 */
 /*初始样式-开始*/
+.uhide{
+	display:none;
+}
 .bg-wh{
 	background-color:#fff;
 }
@@ -100,6 +106,9 @@ input{
 .h-150{
 	height:150px;
 }
+.h-180{
+	height:180px;
+}
 .h-200{
 	height:200px;
 }
@@ -120,6 +129,9 @@ input{
 }
 .padb-10{
 	padding-bottom:10px;
+}
+.padb-70{
+	padding-bottom:70px;
 }
 .padr-7{
 	padding-right:7px;
@@ -184,6 +196,9 @@ input{
 .tx-green-1{
 	color:#5CBA4A;
 }
+.tx-green-2{
+	color:#496B26;
+}
 .tx-wh{
 	color:#fff;
 }
@@ -195,6 +210,12 @@ input{
 }
 .tx-bla-3{
 	color:#999;
+}
+.tx-blue-1{
+	color:#3DCEDC;
+}
+.tx-orange-1{
+	color:#D64D00;
 }
 .tx-yellow{
 	color:#FFBA01;
@@ -211,14 +232,17 @@ input{
 .uc-15{
 	border-radius:15px;
 }
+.bora-gra-1{
+	border:1px solid #f0f0f0;
+}
 .borb-gra-1{
-	border-bottom:1px solid #eee;
+	border-bottom:1px solid #f0f0f0;
 }
 .bort-gra-1{
-	border-top:1px solid #eee;
+	border-top:1px solid #f0f0f0;
 }
 .borl-gra-1{
-	border-left:1px solid #eee;
+	border-left:1px solid #f0f0f0;
 }
 .tx-l{
 	text-align:left;
@@ -272,11 +296,11 @@ input{
 /*搜索图标-结束*/
 /*头部菜单图标-开始*/
 .address-icon{
-	width: 30px;
+	width: 24px;
 	height: 44px;
 	background: url(../images/sprite.png) no-repeat;
-	background-size: 150px;
-	background-position: 9px -91px;
+	background-size: 211px;
+	background-position: -44px 7px;
 }
 .navList{
 	width:30px;
@@ -394,19 +418,19 @@ input{
 	width: 100px;
 	height: 27px;
 	background: url(../images/sprite.png) no-repeat;
-	background-size: 150px;
-	background-position: -41px -38px;
+	background-size: 180px;
+	background-position: -31px -32px;
 }
 
 /* 菜单滚动插件-结束 */
 /*闪购-结束*/
 /*村长推荐-开始*/
 .recommended-icon{
-	width: 150px;
+	width: 118px;
 	height: 27px;
 	background: url(../images/sprite.png) no-repeat;
-	background-size: 150px;
-	background-position: -41px -97px;
+	background-size: 180px;
+	background-position: -31px -87px
 }
 .recommended-more li{
 	width:7px;
@@ -424,18 +448,125 @@ input{
 }
 .newGood-icon{
 	width: 35px;
-    	height: 35px;
-    	background: url(../images/sprite.png) no-repeat;
-    	background-size: 150px;
-    	background-position: 10px -58px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 154px;
+	background-position: 13px -46px;
 }
 /*村长推荐-结束*/
+/*新鲜货-开始*/
+.newGood-module{
+	background-image: url(../images/product-img.png);
+	background-size: 790px 360px;
+}
+.newGood-img01{
+	background-position: 0px -0px;
+}
+.newGood-img02{
+	background-position: -195px -0px;
+}
+.newGood-img03{
+	background-position: -387px -0px;
+}
 /*新鲜果蔬-开始*/
 .newFruit-icon{
 	width: 35px;
-    	height: 35px;
-    	background: url(../images/sprite.png) no-repeat;
-    	background-size: 160px;
-    	background-position: -36px -67px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+	background-position: -28px -58px;
 }
 /*新鲜果蔬-结束*/
+/*海鲜水产-开始*/
+.seaFood-icon{
+	width: 35px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+	background-position: 10px -33px;
+}
+/*海鲜水产-结束*/
+/*禽肉蛋类-开始*/
+.birds-icon{
+	width: 35px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+	background-position: 13px -121px;
+}
+/*禽肉蛋类-结束*/
+/*猪牛羊肉-开始*/
+.cow-icon{
+	width: 35px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+	background-position: -33px -119px;
+}
+/*猪牛羊肉-结束*/
+/*粮油调味-开始*/
+.oil-icon{
+	width: 35px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+	background-position: 10px -0px;
+}
+/*粮油调味-结束*/
+/*地方农店-开始*/
+.farmShop-icon{
+	width: 30px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+	background-position: -30px -0px;
+}
+.more-farmshop{
+	position:absolute;
+	right:0px;
+	top:28%;
+	padding-left:5px;
+	z-index:7;
+	background-color:#fff;
+}
+.more-farmshop i{
+	position:relative;
+	top:1px;
+}
+/*地方农店-结束*/
+/*底部菜单-开始*/
+.foolterNav{
+	position:fixed ;
+	bottom:0px;
+	left:0;
+	width:100%;
+	background-color:#fff;
+	z-index:999;
+}
+.mobileShop-icon,.village-icon,.shoppingCart-icon,.my-icon{
+	width:30px;
+	height:30px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 180px;
+}
+.mobileShop-icon{
+	background-position: -150px -125px;
+}
+.village-icon{
+	background-size: 220px;
+    	background-position: -46px -0px;
+}
+.bottomNav.active .village-icon{
+	background-size: 180px;
+	background-position: -154px -0px;
+}
+.bottomNav.active .tx-12{
+	color:#FFC001;
+}
+.shoppingCart-icon{
+	background-position: -150px -41px;
+}
+.my-icon{
+	background-position: -150px -87px;
+}
+/*底部菜单-结束*/
