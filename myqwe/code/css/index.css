@@ -1,0 +1,441 @@
+html,body{
+	min-height:100%;
+	min-width:100%;
+	background-color:#F7F7F7;
+}
+input{
+	border:none;
+}
+.bgimg{
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:center;
+}
+/* TouchSlide轮播图的样式-开始*/
+.focus {
+	width: 320px;
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.focus .hd {
+	width: 100%;
+	height: 11px;
+	position: absolute;
+	z-index: 1;
+	bottom: 5px;
+	text-align: center;
+}
+.focus .hd ul {
+	display: inline-block;
+	height: 5px;
+	padding: 0px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 0;
+	vertical-align: top;
+}
+.focus .hd ul li {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #8C8C8C;
+	margin: 0 5px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.focus .hd ul .on {
+	background: #fff;
+}
+.focus .bd {
+	position: relative;
+	z-index: 0;
+}
+.focus .bd li img {
+	width: 100%;
+	height: 225px;
+	/*background: url(../Img/loading.gif) center center no-repeat;*/
+}
+.focus .bd li a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ /* 取消链接高亮 */
+}
+/* TouchSlide轮播图的样式-结束 */
+/*初始样式-开始*/
+.bg-wh{
+	background-color:#fff;
+}
+.bg-gra{
+	background-color:#eee;
+}
+.bg-green-1{
+	background-color:#5CBA4A;
+}
+.bg-green-2{
+	background-color:#56A731;
+}
+.mh-100{
+	min-height:100%;
+}
+.w-100p{
+	width:100%;
+}
+.mw-100{
+	min-width:100%;
+}
+.h-30{
+	height:30px;
+}
+.h-44{
+	height:44px;
+}
+.h-75{
+	height:75px;
+}
+.h-150{
+	height:150px;
+}
+.h-200{
+	height:200px;
+}
+.maxw-25p{
+	max-width:25%;
+}
+.w-25{
+	width:25px;
+}
+.padt-5{
+	padding-top:5px;
+}
+.padt-10{
+	padding-top:10px;
+}
+.padb-5{
+	padding-bottom:5px;
+}
+.padb-10{
+	padding-bottom:10px;
+}
+.padr-7{
+	padding-right:7px;
+}
+.padr-10{
+	padding-right:10px;
+}
+.padl-7{
+	padding-left:7px;
+}
+.padl-10{
+	padding-left:10px;
+}
+.marl-3{
+	margin-left:3px;
+}
+.marl-5{
+	margin-left:5px;
+}
+.marl-10{
+	margin-left:10px;
+}
+.padl-35{
+	padding-left:35px;
+}
+.padr-15{
+	padding-right:15px;
+}
+.marr-3{
+	margin-right:3px;
+}
+.marr-5{
+	margin-right:5px;
+}
+.marr-10{
+	margin-right:10px;
+}
+.mart-5{
+	margin-top:5px;
+}
+.mart-10{
+	margin-top:10px;
+}
+.marb-5{
+	margin-bottom:5px;
+}
+.marb-10{
+	margin-bottom:10px;
+}
+.tx-12{
+	font-size:12px;
+}
+.tx-14{
+	font-size:14px;
+}
+.tx-16{
+	font-size:16px;
+}
+.tx-22{
+	font-size:24px;
+}
+.tx-green-1{
+	color:#5CBA4A;
+}
+.tx-wh{
+	color:#fff;
+}
+.tx-bla{
+	color:#333;
+}
+.tx-bla-2{
+	color:#666;
+}
+.tx-bla-3{
+	color:#999;
+}
+.tx-yellow{
+	color:#FFBA01;
+}
+.tx-red-1{
+	color:#F75452;
+}
+.tx-db{
+	font-weight:bold;
+}
+.uc-6{
+	border-radius:6px;
+}
+.uc-15{
+	border-radius:15px;
+}
+.borb-gra-1{
+	border-bottom:1px solid #eee;
+}
+.bort-gra-1{
+	border-top:1px solid #eee;
+}
+.borl-gra-1{
+	border-left:1px solid #eee;
+}
+.tx-l{
+	text-align:left;
+}
+/*文字换行*/
+.tx-break{
+	word-break:break-all;
+}
+/*2行文本，超出省略号*/
+.tx-moreclip-2{
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.line-th{
+	text-decoration:line-through
+}
+/*初始样式-结束*/
+/*搜索图标-开始*/
+.search-icon{
+	position:absolute;
+	top:0px;
+	left:10px;
+}
+.search-icon:after{
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+	border: 1px solid #999;
+	border-radius: 50%;
+
+}
+.search-icon:before{
+	content: "";
+	width: 8px;
+	height: 1px;
+	position: absolute;
+	top: 23px;
+	left: 16px;
+	border-radius: 50%;
+	background-color: #999;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg)
+}
+/*搜索图标-结束*/
+/*头部菜单图标-开始*/
+.address-icon{
+	width: 30px;
+	height: 44px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 150px;
+	background-position: 9px -91px;
+}
+.navList{
+	width:30px;
+	height:100%;
+	margin-right:5px;
+}
+.navList li{
+	width:70%;
+	height:2px;
+	background-color:#5DBA4B;
+	margin:3px 0;
+}
+/*头部菜单图标-结束*/
+/*内部菜单-开始*/
+.nav li{
+	width:25%;
+	float:left;
+}
+.nav li:nth-child(5){
+	float:left;
+}
+/*内部菜单-结束*/
+.day,.month,.hours{
+	width:15px;
+	height:15px;
+	padding:3px;
+	border-radius:3px;
+	background-color:#FFC71E;
+}
+.day,.month{
+	margin-right:7px;
+}
+.day:after,.month:after{
+	content:"";
+	width:3px;
+	height:3px;
+	position:absolute;
+	top: 6px;
+		left: 23px;
+	border-radius:50%;
+	background-color:#FFC71E;
+}
+.day:before,.month:before{
+	content:"";
+	width:3px;
+	height:3px;
+	position:absolute;
+	top: 12px;
+		left: 23px;
+	border-radius:50%;
+	background-color:#FFC71E;
+}
+/*闪购-开始*/
+/*菜单滚动插件-开始*/
+#wrapper,#scroller,#scroller ul,#scroller li {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#wrapper {
+	position: relative;
+	z-index: 1;
+	height: 180px;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	-ms-touch-action: none;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 720px;
+	height: 44px;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller ul {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#scroller li {
+	width: 100px;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+	font-size: 14px;
+	overflow: hidden;
+	text-align: center;
+	margin-left:5px;
+}
+.shortBuyProduct{
+	width:100px;
+	height:100px;
+}
+.shortBuy-icon{
+	width: 100px;
+	height: 27px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 150px;
+	background-position: -41px -38px;
+}
+
+/* 菜单滚动插件-结束 */
+/*闪购-结束*/
+/*村长推荐-开始*/
+.recommended-icon{
+	width: 150px;
+	height: 27px;
+	background: url(../images/sprite.png) no-repeat;
+	background-size: 150px;
+	background-position: -41px -97px;
+}
+.recommended-more li{
+	width:7px;
+	height:7px;
+	margin-right:4px;
+	background-color:#ABD399;
+	border-radius:50%;
+}
+.recommended-more li:nth-child(2){
+	background-color:#fff;
+}
+.centerLine{
+	height:1px;
+	background-color:#999;
+}
+.newGood-icon{
+	width: 35px;
+    	height: 35px;
+    	background: url(../images/sprite.png) no-repeat;
+    	background-size: 150px;
+    	background-position: 10px -58px;
+}
+/*村长推荐-结束*/
+/*新鲜果蔬-开始*/
+.newFruit-icon{
+	width: 35px;
+    	height: 35px;
+    	background: url(../images/sprite.png) no-repeat;
+    	background-size: 160px;
+    	background-position: -36px -67px;
+}
+/*新鲜果蔬-结束*/

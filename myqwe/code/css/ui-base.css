@@ -1,0 +1,314 @@
+* {
+	margin: 0;
+	padding: 0
+}
+/*引入字体*/
+/*苹方常规体*/
+/* @font-face {
+	font-family: PingFangM;
+	src:url('../res/PingFang Medium.ttf');
+} */
+/*苹方中黑体*/
+/* @font-face {
+	font-family:PingFangB;
+	src:url('../res/PingFang Bold.ttf');
+} */
+/*苹方粗体*/
+/* @font-face {
+	font-family:PingFangH;
+	src:url('../res/PingFang Heavy.ttf');
+} */
+/*苹方细体*/
+/* @font-face {
+	font-family:PingFangL;
+	src:url('../res/PingFang Light.ttf');
+} */
+/*引入字体end*/
+div {
+	outline: 0!important;
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+	position: relative
+}
+input,
+textarea{
+	outline: none;
+}
+li,ul {
+	list-style: none
+}
+img{width:100%}
+.uc-a,.uc-a1,.uc-a2,.uc-a3,.uc-b,.uc-b1,.uc-bl,.uc-bl1,.uc-br,.uc-br1,.uc-l,.uc-l1,.uc-n,.uc-r,.uc-r1,.uc-t,.uc-t1,.uc-tl,.uc-tl1,.uc-tr,.uc-tr1 {
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box
+}
+.us {
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+	box-shadow: 0 1px 4px rgba(0,0,0,.3)
+}
+.us1 {
+	-webkit-box-shadow: 0 1px 4px rgba(120,120,120,.3);
+	box-shadow: 0 1px 4px rgba(120,120,120,.3)
+}
+.us-i {
+	-webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,.4);
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.4)
+}
+.uts {
+	text-shadow: 0 2px 2px #000
+}
+.tx-c{
+	text-align:center;
+}
+.tx-r{
+	text-align: right;
+}
+.um,.um body {
+	height: 100%;
+	padding: 0;
+	margin: 0
+}
+.um-vp {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	background-color: #eee;
+}
+.um-vp .up {
+	width: 100%;
+	border: 0
+}
+.uf,.uh {
+	display: block;
+	width: 100%
+}
+.pos_re,.up .uf,.up .uh {
+	position: relative
+}
+.ufl {
+	float: left!important
+}
+.ufr {
+	float: right!important
+}
+.uinl {
+	display: inline-block;
+	position: relative
+}
+.ut-s {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: 0!important
+}
+.uhide {
+	display: none!important
+}
+.uof {
+	overflow: hidden
+}
+.uof-x {
+	overflow-x: hidden
+}
+.uof-y {
+	overflow-y: hidden
+}
+.tb {
+	font-weight: 700
+}
+.ub {
+	display: -webkit-box;
+	display: box;
+	position: relative
+}
+.ub-rev {
+	-webkit-box-direction: reverse;
+	box-direction: reverse
+}
+.ub-fh {
+	width: 100%
+}
+.ub-fv {
+	height: 100%
+}
+.ub-con {
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.ub-ac {
+	-webkit-box-align: center;
+	box-align: center
+}
+.ub-ae {
+	-webkit-box-align: end;
+	box-align: end
+}
+.ub-pc {
+	-webkit-box-pack: center;
+	box-pack: center
+}
+.ub-pe {
+	-webkit-box-pack: end;
+	box-pack: end
+}
+.ub-pj {
+	-webkit-box-pack: justify;
+	box-pack: justify
+}
+.ub-ver {
+	-webkit-box-orient: vertical;
+	box-orient: vertical
+}
+.ub-f1 {
+	position: relative;
+	-webkit-box-flex: 1;
+	box-flex: 1
+}
+.ub-f2 {
+	position: relative;
+	-webkit-box-flex: 2;
+	box-flex: 2
+}
+.ub-f3 {
+	position: relative;
+	-webkit-box-flex: 3;
+	box-flex: 3
+}
+.ub-f4 {
+	position: relative;
+	-webkit-box-flex: 4;
+	box-flex: 4
+}
+.ub-img {
+	-webkit-background-size: contain;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+.ub-img1 {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center
+}
+.ub-img2 {
+	background-repeat: repeat-x;
+	background-size: auto 100%
+}
+.ub-img3 {
+	background-repeat: repeat-y;
+	background-size: 100% auto
+}
+.ub-img4 {
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center
+}
+.ub-img5 {
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+.ub-img6 {
+	background-repeat: no-repeat;
+	background-position: center
+}
+.ub-img7 {
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+html,body{
+        height: 100%;
+		font-family:Helvetica;
+		font-size:16px;
+    }
+#wrap{
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+		   flex-flow: column;
+}
+/*顶部栏样式*/
+#header{
+	text-align:center;
+	width: 100%;
+}
+#footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:50px;
+	width:100%;
+	text-align: center;
+	color:#959595;
+	border-top:1px solid #979797;
+}
+
+/*顶部栏右端按钮文字*/
+.her {
+	width: 55px;
+	text-align: right;
+	line-height: 44px;
+	color: #008fc4;
+	padding-right: 16px;
+	font-weight: bold;
+}
+/*未激活状态*/
+.her.inact {
+	color: #ccc;
+}
+.hti {
+	font-size: 17px;
+	color: #008fc4;
+	text-align: center;
+	line-height: 44px;
+}
+/*顶部栏，若是logo，则添加该类*/
+#title_header{
+	height:44px;
+	background:url(../image/title-logo.png) center center no-repeat;
+	background-size: 165px 35px;
+}
+/*下方按钮*/
+.btn {
+	height: 50px;
+	line-height: 50px;
+	margin: 0 32px;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+}
+.btn.red {
+	background-color: #F4483B;
+}
+.btn.red-active {
+	background-color: #C33A2F;
+}
+.hide {
+	visibility: hidden;
+}
+
+
+/*苹方常规*/
+/* .fo-r {
+	font-family: PingFangM;
+} */
+/*苹方中黑*/
+/* .fo-m {
+	font-family: PingFangB;
+} */
+/*苹方中粗*/
+/* .fo-b {
+	font-family: PingFangH;
+} */
